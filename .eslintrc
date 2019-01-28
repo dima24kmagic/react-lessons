@@ -1,9 +1,10 @@
 {
   "extends": [
-    "/eslint-config.react",
     "plugin:prettier/recommended",
-    "prettier"
+    "prettier",
+    "eslint-config-airbnb"
   ],
+  "parser": "babel-eslint",
   "plugins": ["prettier"],
   "rules": {
     "prettier/prettier": ["error"],
@@ -16,6 +17,25 @@
         },
         "allowChildren": false
       }
-    ]
+    ],
+    "semi": ["error", "never"],
+
+    "function-paren-newline": "off",
+
+    "object-curly-newline": ["error", { "consistent": true }],
+
+    // Used in saga while(true) loops
+    "no-continue": "off",
+
+    // React rules
+    "react/jsx-filename-extension": ["error", { "extensions": [".js"] }],
+
+    // Import rules
+    "import/no-named-as-default": "off",
+    "import/prefer-default-export": "off"
+  },
+  "env": {
+    "browser": true,
+    "jest": true
   }
 }
