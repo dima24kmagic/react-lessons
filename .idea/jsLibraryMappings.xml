@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="PROJECT" libraries="{@types/express, @types/flux, @types/gsap, @types/jquery, @types/lodash, @types/react, @types/react-addons-css-transition-group, @types/react-dom, @types/react-motion, @types/react-native, @types/react-redux, @types/react-router-dom, @types/react-router-redux}" />
+    <includedPredefinedLibrary name="HTTP Response Handler" />
+    <includedPredefinedLibrary name="Nashorn" />
+  </component>
+</project>
