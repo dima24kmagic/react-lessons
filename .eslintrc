@@ -1,6 +1,6 @@
 {
   "extends": [
-    "@ld/eslint-config/react",
+    "/eslint-config.react",
     "plugin:prettier/recommended",
     "prettier"
   ],

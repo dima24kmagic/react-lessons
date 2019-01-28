@@ -1,16 +1,16 @@
-const path = require("path");
-const webpackConfig = require("react-scripts/config/webpack.config");
+const path = require('path')
+const webpackConfig = require('react-scripts/config/webpack.config')
 
 module.exports = {
-  components: "src/components/**/[A-Z]*.js",
+  components: 'src/components/**/[A-Z]*.js',
   ignore: [
-    "**/*.mockdata.js",
-    "**/*.test.js",
-    "**/*.spec.js",
-    "**/__tests__/**"
+    '**/*.mockdata.js',
+    '**/*.test.js',
+    '**/*.spec.js',
+    '**/__tests__/**',
   ],
   styleguideComponents: {
-    Wrapper: path.join(__dirname, "src/styleguide/Wrapper")
+    Wrapper: path.join(__dirname, 'src/styleguide/Wrapper'),
   },
   webpackConfig,
   // Fixes error "Cannot read property 'endsWith' of undefined"
@@ -21,8 +21,8 @@ module.exports = {
       ...config,
       output: {
         ...config.output,
-        publicPath: ""
-      }
-    };
-  }
-};
+        publicPath: '',
+      },
+    }
+  },
+}
