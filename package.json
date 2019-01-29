@@ -38,6 +38,7 @@
     "eslint": "^5.12.1",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-prettier": "^3.0.1",
-    "prettier": "^1.16.1"
+    "prettier": "^1.16.1",
+    "react-docgen": "^2.21.0"
   }
 }
