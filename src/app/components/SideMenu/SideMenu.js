@@ -1,85 +1,86 @@
-import React, { useState } from "react";
-import PropTypes from "prop-types";
-import { MenuList, SwipeableDrawer, withStyles } from "@material-ui/core";
-import Grid from "@material-ui/core/Grid/Grid";
-import MenuItem from "@material-ui/core/MenuItem";
-import cn from "classnames";
-import Typography from "@material-ui/core/Typography";
-import { NavLink } from "react-router-dom";
+import React from 'react'
+import PropTypes from 'prop-types'
+import { MenuList, SwipeableDrawer, withStyles } from '@material-ui/core'
+import Grid from '@material-ui/core/Grid/Grid'
+import MenuItem from '@material-ui/core/MenuItem'
+import cn from 'classnames'
+import Typography from '@material-ui/core/Typography'
+import { NavLink } from 'react-router-dom'
 
 const propTypes = {
-  /** Which side menu should be draggable from*/
-  side: PropTypes.oneOf(["right"]),
+  /** Toggle Menu expanded */
+  toggleMenu: PropTypes.func.isRequired,
+  /** Is menu open */
+  isOpen: PropTypes.bool,
+  /** Which side menu should be draggable from */
+  side: PropTypes.oneOf(['right']),
   /** Items in menu */
   links: PropTypes.arrayOf(
     PropTypes.shape({
       /** link path */
       to: PropTypes.string,
       /** Text of a link */
-      text: PropTypes.string
-    })
+      text: PropTypes.string,
+    }),
   ),
   /** @ignore */
-  classes: PropTypes.shape().isRequired
-};
+  classes: PropTypes.shape().isRequired,
+}
 
 const defaultProps = {
-  side: "right",
-  links: []
-};
+  isOpen: false,
+  side: 'right',
+  links: [],
+}
 
 const styles = {
   menu: {
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    width: "70vw"
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    width: 300,
+    '@media(max-width: 768px)': {
+      width: '70vw',
+    },
   },
   item: {
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    width: "100%"
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    width: '100%',
   },
   navLink: {
-    textDecoration: "none"
+    textDecoration: 'none',
   },
   intro: {
-    color: "#121212"
+    color: '#121212',
   },
   itemIntro: {
-    display: "flex",
-    justifyContent: "center",
-    width: "100%",
-    margin: "16px 0"
+    display: 'flex',
+    justifyContent: 'center',
+    width: '100%',
+    margin: '16px 0',
   },
   burgerWrapper: {
-    position: "fixed",
+    position: 'fixed',
     top: 32,
     right: 32,
     height: 48,
     width: 48,
-    background: "rgba(0,0,0,.1)"
-  }
-};
+    background: 'rgba(0,0,0,.1)',
+  },
+}
 
 /**
  * Side Menu
  */
-function SideMenu({ classes, side, links }) {
-  const [isOpen, setIsOpen] = useState(true);
-  const onCloseMenu = () => {
-    setIsOpen(false);
-  };
-  const onOpenMenu = () => {
-    setIsOpen(true);
-  };
+function SideMenu({ classes, side, links, isOpen, toggleMenu }) {
   return (
     <Grid container>
-      <Grid item className={classes.burgerWrapper} />
+      <Grid item className={classes.burgerWrapper} onClick={toggleMenu} />
       <SwipeableDrawer
-        onClose={onCloseMenu}
-        onOpen={onOpenMenu}
+        onClose={toggleMenu}
+        onOpen={toggleMenu}
         open={isOpen}
         anchor={side}
       >
@@ -95,7 +96,7 @@ function SideMenu({ classes, side, links }) {
             <NavLink
               className={cn(classes.navLink, classes.item)}
               to={link.to}
-              onClick={onCloseMenu}
+              onClick={toggleMenu}
               key={link.to}
             >
               <MenuItem className={classes.item}>{link.text}</MenuItem>
@@ -104,12 +105,12 @@ function SideMenu({ classes, side, links }) {
         </MenuList>
       </SwipeableDrawer>
     </Grid>
-  );
+  )
 }
 
-SideMenu.propTypes = propTypes;
-SideMenu.defaultProps = defaultProps;
+SideMenu.propTypes = propTypes
+SideMenu.defaultProps = defaultProps
 
-const enhance = withStyles(styles);
+const enhance = withStyles(styles)
 
-export default enhance(SideMenu);
+export default enhance(SideMenu)

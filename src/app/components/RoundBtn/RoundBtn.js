@@ -1,29 +1,31 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { withStyles } from "@material-ui/core/styles";
-import IconButton from "@material-ui/core/IconButton";
+import React from 'react'
+import PropTypes from 'prop-types'
+import { withStyles } from '@material-ui/core/styles'
+import IconButton from '@material-ui/core/IconButton'
 
 const propTypes = {
   /** OnClick handler */
   onClick: PropTypes.func,
   /** @ignore */
-  classes: PropTypes.shape().isRequired
-};
+  classes: PropTypes.shape().isRequired,
+}
 
-const defaultProps = {};
+const defaultProps = {
+  onClick: () => {},
+}
 
-const styles = {};
+const styles = {}
 
 /**
  * Rounded Btn
  */
 export function RoundBtn({ classes, onClick }) {
-  return <IconButton onClick={onClick} />;
+  return <IconButton onClick={onClick} />
 }
 
-RoundBtn.propTypes = propTypes;
-RoundBtn.defaultProps = defaultProps;
+RoundBtn.propTypes = propTypes
+RoundBtn.defaultProps = defaultProps
 
-const enhance = withStyles(styles);
+const enhance = withStyles(styles)
 
-export default enhance(RoundBtn);
+export default enhance(RoundBtn)

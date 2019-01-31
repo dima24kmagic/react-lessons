@@ -13,9 +13,9 @@ module.exports = {
     '**/*.spec.js',
     '**/__tests__/**',
   ],
-  styleguideComponents: {
-    Wrapper: path.join(__dirname, 'src/styleguide/Wrapper'),
-  },
+  // styleguideComponents: {
+  //   Wrapper: path.join(__dirname, 'src/styleguide/Wrapper'),
+  // },
   webpackConfig,
   // Fixes error "Cannot read property 'endsWith' of undefined"
   // appearing when building the styleguide
