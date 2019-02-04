@@ -1,32 +1,35 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { withStyles } from "@material-ui/core/styles";
-import Grid from "@material-ui/core/Grid/Grid";
-import { arrayOfLessons } from "../../PropTypes/PropTypes";
+import React from 'react'
+import PropTypes from 'prop-types'
+import { withStyles } from '@material-ui/core/styles'
+import Grid from '@material-ui/core/Grid/Grid'
+import { lessonPropType } from '../../PropTypes/PropTypes'
 
 const propTypes = {
   /** Title of a section */
   title: PropTypes.string,
   /** Section lessons */
-  lessons: arrayOfLessons.isRequired,
+  lessons: PropTypes.arrayOf(lessonPropType),
   /** @ignore */
-  classes: PropTypes.shape().isRequired
-};
+  classes: PropTypes.shape().isRequired,
+}
 
-const defaultProps = {};
+const defaultProps = {
+  title: '',
+  lessons: [],
+}
 
-const styles = {};
+const styles = {}
 
 /**
  * Lessons grouped in section
  */
 export function LessonsSection({ classes }) {
-  return <Grid container> </Grid>;
+  return <Grid container> </Grid>
 }
 
-LessonsSection.propTypes = propTypes;
-LessonsSection.defaultProps = defaultProps;
+LessonsSection.propTypes = propTypes
+LessonsSection.defaultProps = defaultProps
 
-const enhance = withStyles(styles);
+const enhance = withStyles(styles)
 
-export default enhance(LessonsSection);
+export default enhance(LessonsSection)

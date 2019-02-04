@@ -31,9 +31,20 @@ F
 	.eslintrc,4/b/4be5f5e3cea171c304090be92469b2f2cb51039a
 N
 src/app/PropTypes/PropTypes.js,8/2/824f9afd4241528c766a2cc60febea9e092d75f4
-F
-styleguidist.config.js,c/1/c1c122099725c7acdf4d54f6e0741244caed1473
 D
 styleguide.config.js,c/8/c818c88e5567c106cdca5ad21f1b268bf3adbd03
 S
 #src/app/components/Lesson/Lesson.js,7/0/700e6ac0efe3036540b0a6af39cc4976e94c0f93
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+F
+src/app/theme/theme.js,2/4/24b57193ac2e311290bab56ee5157f80c7312944
+I
+src/styleguide/Wrapper.js,e/3/e34e2a21f447bb33014afcfe25c266508aff0634
+S
+#src/app/components/Button/Button.md,1/e/1e01876310f077ebbb85bdd468ad5ac276e253b9
+S
+#src/app/components/Button/Button.js,4/d/4db5f65293aeebc900ec401174cd594b3df0b03e
+W
+'src/app/components/SideMenu/SideMenu.md,2/9/29fb4fed82274f6587db8d0400646efec209c9d2

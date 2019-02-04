@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 
-export const lesson = PropTypes.shape({
+export const lessonPropType = PropTypes.shape({
   /** Lesson id */
   id: PropTypes.string.isRequired,
   /** Lesson title */
@@ -9,4 +9,4 @@ export const lesson = PropTypes.shape({
   body: PropTypes.string.isRequired,
 })
 
-export const arrayOfLessons = PropTypes.arrayOf(lesson)
+export const arrayOfLessons = PropTypes.arrayOf(lessonPropType)

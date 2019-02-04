@@ -72,7 +72,7 @@ const styles = {
 }
 
 /**
- * Side Menu
+ * Side menu component with navigation in it
  */
 function SideMenu({ classes, side, links, isOpen, toggleMenu }) {
   return (

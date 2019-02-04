@@ -1,21 +1,22 @@
-const path = require('path')
 const webpackConfig = require('react-scripts/config/webpack.config.dev')
-const docGen = require('react-docgen')
 
 module.exports = {
-  propsParser(filePath, source, resolver, handlers) {
-    return docGen.parse(source, resolver, handlers)
-  },
   components: 'src/app/components/**/*.js',
+  handlers: componentPath => {
+    require('react-docgen').defaultHandlers.concat(
+      require('react-docgen-external-proptypes-handler')(componentPath),
+      require('react-docgen-displayname-handler').createDisplayNameHandler(
+        componentPath,
+      ),
+    )
+  },
   ignore: [
+    '**/index.js',
     '**/*.mockdata.js',
     '**/*.test.js',
     '**/*.spec.js',
     '**/__tests__/**',
   ],
-  // styleguideComponents: {
-  //   Wrapper: path.join(__dirname, 'src/styleguide/Wrapper'),
-  // },
   webpackConfig,
   // Fixes error "Cannot read property 'endsWith' of undefined"
   // appearing when building the styleguide

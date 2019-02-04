@@ -2,7 +2,7 @@ Example:
 
 ```js
 const { BrowserRouter } = require('react-router-dom')
-// const { Button } = require('@material-ui/core')
+const { Button } = require('@material-ui/core')
 
 initialState = {
   isOpen: false,
