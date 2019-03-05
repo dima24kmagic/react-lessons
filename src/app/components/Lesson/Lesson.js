@@ -7,6 +7,7 @@ import Collapse from '@material-ui/core/Collapse'
 
 import { lessonPropType } from '../../PropTypes/PropTypes'
 import LessonHeader from './LessonHeader/LessonHeader'
+import CodeBlock from '../CodeBlock'
 
 const propTypes = {
   /** Lesson proptype */
@@ -80,7 +81,7 @@ function Lesson({ classes, lesson }) {
       </Grid>
       <Collapse in={expanded}>
         <Grid item>
-          <ReactMarkdown source={lesson.body} />
+          <ReactMarkdown source={lesson.body} renderers={{ code: CodeBlock }} />
         </Grid>
       </Collapse>
     </Grid>

@@ -54,6 +54,9 @@ const styles = theme => ({
   title: {
     cursor: 'pointer',
   },
+  titleTypography: {
+    color: theme.palette.colors.green,
+  },
 })
 /**
  * Lesson Header Section
@@ -76,7 +79,9 @@ export function LessonHeader({
       className={headerClass}
     >
       <Grid item onClick={onExpand} className={classes.title}>
-        <Typography variant="title">{title}</Typography>
+        <Typography className={classes.titleTypography} variant="title">
+          {title}
+        </Typography>
       </Grid>
       <Grid item>
         <IconButton

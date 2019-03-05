@@ -1,21 +1,25 @@
-import React, { Component, Fragment } from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
-import SideMenu from "./components/SideMenu";
-import Home from "./screens/Home/Home";
-import Lessons from "./screens/Lessons/Lessons";
-import About from "./screens/About/About";
+import React, { Component, Fragment } from 'react'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { MuiThemeProvider } from '@material-ui/core'
+
+import SideMenu from './components/SideMenu'
+import Home from './screens/Home/Home'
+import Lessons from './screens/Lessons/Lessons'
+import About from './screens/About/About'
+import theme from './theme'
 
 class App extends Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.links = [
-      { to: "/lessons", text: "Уроки" },
-      { to: "/about", text: "Обо мне" }
-    ];
+      { to: '/lessons', text: 'Уроки' },
+      { to: '/about', text: 'Обо мне' },
+    ]
   }
+
   render() {
     return (
-      <div className="app">
+      <MuiThemeProvider theme={theme}>
         <BrowserRouter>
           <Fragment>
             <SideMenu side="right" links={this.links} />
@@ -26,9 +30,9 @@ class App extends Component {
             </Switch>
           </Fragment>
         </BrowserRouter>
-      </div>
-    );
+      </MuiThemeProvider>
+    )
   }
 }
 
-export default App;
+export default App

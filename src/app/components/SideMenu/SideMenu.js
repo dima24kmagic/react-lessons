@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import { MenuList, SwipeableDrawer, withStyles } from '@material-ui/core'
 import Grid from '@material-ui/core/Grid/Grid'
@@ -74,13 +74,18 @@ const styles = {
 /**
  * Side menu component with navigation in it
  */
-function SideMenu({ classes, side, links, isOpen, toggleMenu }) {
+function SideMenu({ classes, side, links }) {
+  const [isOpen, setIsOpen] = useState(false)
+
+  const onMenuToggle = () => {
+    setIsOpen(!isOpen)
+  }
   return (
     <Grid container>
-      <Grid item className={classes.burgerWrapper} onClick={toggleMenu} />
+      <Grid item className={classes.burgerWrapper} onClick={onMenuToggle} />
       <SwipeableDrawer
-        onClose={toggleMenu}
-        onOpen={toggleMenu}
+        onClose={onMenuToggle}
+        onOpen={onMenuToggle}
         open={isOpen}
         anchor={side}
       >
@@ -96,7 +101,7 @@ function SideMenu({ classes, side, links, isOpen, toggleMenu }) {
             <NavLink
               className={cn(classes.navLink, classes.item)}
               to={link.to}
-              onClick={toggleMenu}
+              onClick={onMenuToggle}
               key={link.to}
             >
               <MenuItem className={classes.item}>{link.text}</MenuItem>
