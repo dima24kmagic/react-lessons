@@ -9,7 +9,6 @@ initialState = {
 }
 
 const toggleMenu = () => {
-  console.log('HELLO')
   setState({
     isOpen: !state.isOpen,
   })

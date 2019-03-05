@@ -2,19 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f672100-b170-4693-99d1-85cbf4dd0244" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/components/Button/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Lesson/Lesson.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labs/19/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../labs/20/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/CodeBlock/CodeBlock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/CodeBlock/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/Lesson/LessonHeader/LessonHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/Lesson/LessonHeader/LessonHeader.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/styleguide/Wrapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/theme.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../labs/16/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../labs/16/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/react-lessons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/react-lessons.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/3/53583be5111df60648a9097bb009fa85b6203287" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/3/53583be5111df60648a9097bb009fa85b6203287" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/7030d0b2f71b999ff89a343de08c414af32fc93a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/7030d0b2f71b999ff89a343de08c414af32fc93a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/920ab6ab4a57ee20a36df4e3e2e73b70f9969d14" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/920ab6ab4a57ee20a36df4e3e2e73b70f9969d14" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/4/94fd7305945bef8279d336617fddfb044a4e467c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/4/94fd7305945bef8279d336617fddfb044a4e467c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d49da35ab3c06a20e2e039d046fcba32475854c1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d49da35ab3c06a20e2e039d046fcba32475854c1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f900edc44cb929c2267a16100a32851f6d5b477d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f900edc44cb929c2267a16100a32851f6d5b477d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fbd47af346e4b81160878410dc8c967953e52a83" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fbd47af346e4b81160878410dc8c967953e52a83" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/PropTypes/PropTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/PropTypes/PropTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Button/Button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Button/Button.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Button/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/Lesson/Lesson.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Lesson/Lesson.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Lesson/Lesson.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Lesson/Lesson.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/LessonsSection/LessonsSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/LessonsSection/LessonsSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/RoundBtn/RoundBtn.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/SideMenu/SideMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/SideMenu/SideMenu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/SideMenu/SideMenu.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/SideMenu/SideMenu.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styleguide/Wrapper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/SideMenu/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/SideMenu/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/screens/About/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/screens/About/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/screens/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/screens/Home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/screens/Lessons/Lessons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/screens/Lessons/Lessons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styleguide.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/styleguide.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
@@ -30,12 +67,8 @@
         <entry file="file://$PROJECT_DIR$/src/app/components/SideMenu/SideMenu.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="95">
-                <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-                <folding>
-                  <element signature="e#239#468#1" expanded="true" />
-                  <element signature="e#257#451#0" expanded="true" />
-                </folding>
+              <first_editor relative-caret-position="209">
+                <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
               </first_editor>
               <second_editor />
             </state>
@@ -43,19 +76,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/components/Button/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="31" selection-start-column="31" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/components/SideMenu/SideMenu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+            <state relative-caret-position="304">
+              <caret line="106" column="11" selection-start-line="106" selection-start-column="11" selection-end-line="106" selection-end-column="11" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
                 <element signature="e#376#837#0" expanded="true" />
@@ -65,77 +89,139 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/styleguide.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding>
-                <element signature="e#785#884#0" expanded="true" />
-                <element signature="e#818#877#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/components/Lesson/Lesson.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+            <state relative-caret-position="67">
+              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
               <folding>
-                <element signature="e#0#25#0" expanded="true" />
-                <element signature="e#1143#1208#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#508#631#0" expanded="true" />
+                <element signature="e#711#870#0" expanded="true" />
+                <element signature="e#837#865#0" expanded="true" />
+                <element signature="e#880#980#0" expanded="true" />
+                <element signature="e#993#1026#0" expanded="true" />
+                <element signature="e#1037#1064#0" expanded="true" />
+                <element signature="e#1079#1176#0" expanded="true" />
+                <element signature="e#1195#1316#0" expanded="true" />
+                <element signature="e#1432#1433#0" expanded="true" />
+                <element signature="e#1463#1464#0" expanded="true" />
+                <element signature="e#1480#1993#0" expanded="true" />
+                <element signature="e#1522#1847#0" expanded="true" />
+                <element signature="e#1430#1545#0" expanded="true" />
+                <element signature="e#1419#1527#0" expanded="true" />
+                <element signature="e#1438#1514#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/components/Lesson/Lesson.md">
+        <entry file="file://$PROJECT_DIR$/styleguide.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+              <folding>
+                <element signature="e#446#516#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="44" column="27" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/styleguide/Wrapper.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/theme.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+                <element signature="e#136#268#0" expanded="true" />
+                <element signature="e#149#265#0" expanded="true" />
+                <element signature="e#185#215#0" expanded="true" />
+                <element signature="e#229#260#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/components/Lesson/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/components/Lesson/LessonHeader/LessonHeader.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#407#640#0" expanded="true" />
+                <element signature="e#689#753#0" expanded="true" />
+                <element signature="e#696#1272#0" expanded="true" />
+                <element signature="e#741#973#0" expanded="true" />
+                <element signature="e#785#950#0" expanded="true" />
+                <element signature="e#988#1176#0" expanded="true" />
+                <element signature="e#1075#1135#0" expanded="true" />
+                <element signature="e#1192#1230#0" expanded="true" />
+                <element signature="e#1241#1269#0" expanded="true" />
+                <element signature="e#1410#1420#0" expanded="true" />
+                <element signature="e#1240#1733#0" expanded="true" />
+                <element signature="e#1363#1474#0" expanded="true" />
+                <element signature="e#1481#1721#0" expanded="true" />
+                <element signature="e#1501#1707#0" expanded="true" />
+                <element signature="e#1566#1623#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/components/Lesson/LessonHeader/LessonHeader.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="190">
-                <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-                <folding>
-                  <element signature="e#15#132#0" expanded="true" />
-                </folding>
+              <first_editor relative-caret-position="114">
+                <caret line="6" selection-start-line="6" selection-end-line="6" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/PropTypes/PropTypes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="47" lean-forward="true" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/components/LessonsSection/LessonsSection.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-                <element signature="e#466#481#0" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
-                <element signature="e#607#608#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/theme/theme.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>babel-eslint&quot;</find>
+      <find>Lesson</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -148,7 +234,6 @@
         <option value="$PROJECT_DIR$/src/app/components/Menu/Menu.js" />
         <option value="$PROJECT_DIR$/src/app/components/RoundBtn.js" />
         <option value="$PROJECT_DIR$/src/app/screens/About/About.js" />
-        <option value="$PROJECT_DIR$/src/app/screens/Home/Home.js" />
         <option value="$PROJECT_DIR$/src/app/App.js" />
         <option value="$PROJECT_DIR$/src/app/screens/Lessons/Lessons.js" />
         <option value="$PROJECT_DIR$/.prettierrc" />
@@ -156,7 +241,6 @@
         <option value="$PROJECT_DIR$/eslint-config.react.js" />
         <option value="$PROJECT_DIR$/eslint-config.js" />
         <option value="$PROJECT_DIR$/.eslintrc" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/app/components/Lesson/index.js" />
         <option value="$PROJECT_DIR$/src/app/components/LessonsSection/index.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -169,11 +253,24 @@
         <option value="$PROJECT_DIR$/src/app/components/SideMenu/SideMenu.js" />
         <option value="$PROJECT_DIR$/src/app/PropTypes/PropTypes.js" />
         <option value="$PROJECT_DIR$/src/app/components/LessonsSection/LessonsSection.js" />
-        <option value="$PROJECT_DIR$/src/app/components/Lesson/Lesson.md" />
         <option value="$PROJECT_DIR$/src/app/components/Button/index.js" />
-        <option value="$PROJECT_DIR$/src/app/components/SideMenu/SideMenu.md" />
+        <option value="$PROJECT_DIR$/src/app/components/Lesson/parseLessonString.js" />
+        <option value="$PROJECT_DIR$/src/app/components/CodeBlock/index.js" />
+        <option value="$PROJECT_DIR$/src/app/components/CodeBlock/CodeBlock.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/app/screens/Home/Home.js" />
+        <option value="$PROJECT_DIR$/package-lock.json" />
+        <option value="$PROJECT_DIR$/src/app/components/Lesson/Lesson.md" />
+        <option value="$PROJECT_DIR$/src/app/components/Lesson/LessonHeader.js" />
+        <option value="$PROJECT_DIR$/src/app/theme.js" />
+        <option value="$PROJECT_DIR$/src/app/styleguide/Wrapper.js" />
+        <option value="$PROJECT_DIR$/src/app/components/Lesson/LessonHeader.md" />
         <option value="$PROJECT_DIR$/src/app/components/Lesson/Lesson.js" />
+        <option value="$PROJECT_DIR$/src/app/components/Lesson/LessonHeader/LessonHeader.md" />
+        <option value="$PROJECT_DIR$/src/app/components/Lesson/LessonHeader/LessonHeader.js" />
+        <option value="$PROJECT_DIR$/src/app/components/SideMenu/SideMenu.md" />
         <option value="$PROJECT_DIR$/styleguide.config.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -197,7 +294,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,6 +304,11 @@
             <path>
               <item name="react-lessons" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-lessons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-lessons" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -222,14 +323,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-lessons" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-lessons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Button" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-lessons" type="b2602c69:ProjectViewProjectNode" />
@@ -254,10 +347,18 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="PropTypes" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="react-lessons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="styleguide" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,11 +379,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/components/Lesson/LessonHeader" />
+      <recent name="$PROJECT_DIR$/src/app/components/Lesson" />
       <recent name="$PROJECT_DIR$/src/app/components/Button" />
       <recent name="$PROJECT_DIR$/src/app/components/RoundBtn" />
       <recent name="$PROJECT_DIR$/src/app/components/UI" />
-      <recent name="$PROJECT_DIR$/src/app/components/Menu" />
-      <recent name="$PROJECT_DIR$/src/app" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -324,17 +425,18 @@
       <workItem from="1548956728745" duration="190000" />
       <workItem from="1548957469694" duration="2344000" />
       <workItem from="1549293620521" duration="4608000" />
+      <workItem from="1551797123693" duration="6696000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21796000" />
+    <option name="totallyTimeSpent" value="28492000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2711677" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2744881" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -342,6 +444,7 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="SonarLint" order="2" />
@@ -354,7 +457,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="RNConsole" order="10" weight="0.32914045" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.32711306" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.35455543" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="right" id="Merger" order="0" />
       <window_info anchor="right" id="Maven" order="1" />
@@ -400,26 +503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding>
-            <element signature="e#378#828#0" expanded="true" />
-            <element signature="e#408#815#0" expanded="true" />
-            <element signature="e#434#790#0" expanded="true" />
-            <element signature="e#514#768#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/screens/Home/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/screens/Lessons/Lessons.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -438,24 +521,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styleguidist.config.js" />
-    <entry file="file://$PROJECT_DIR$/src/app/components/Lesson/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/components/LessonsSection/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="41" selection-start-column="41" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -518,30 +587,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styleguide/Wrapper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#21#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/LessonsSection/LessonsSection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#466#481#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styleguide/Wrapper.js" />
     <entry file="file://$PROJECT_DIR$/eslint-config-react.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -553,40 +599,226 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/Button/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/LessonsSection/LessonsSection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/theme/theme.js">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/PropTypes/PropTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="e#82#258#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/Lesson/parseLessonString.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/SideMenu/mockdata.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/CodeBlock/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+            <element signature="e#384#472#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/screens/Home/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#150#1490#0" expanded="true" />
+            <element signature="e#1510#1563#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1280">
+          <caret line="16915" column="26" selection-start-line="16915" selection-start-column="26" selection-end-line="16915" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/CodeBlock/CodeBlock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#473#615#0" expanded="true" />
+            <element signature="e#487#602#0" expanded="true" />
+            <element signature="e#650#671#0" expanded="true" />
+            <element signature="e#697#768#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/components/Lesson/Lesson.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="190">
-            <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-            <folding>
-              <element signature="e#15#132#0" expanded="true" />
-            </folding>
+          <first_editor relative-caret-position="456">
+            <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/SideMenu/SideMenu.md">
+    <entry file="file://$PROJECT_DIR$/src/app/components/Lesson/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/theme.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+            <element signature="e#136#268#0" expanded="true" />
+            <element signature="e#149#265#0" expanded="true" />
+            <element signature="e#185#215#0" expanded="true" />
+            <element signature="e#229#260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/styleguide/Wrapper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/csstype/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="3923" column="2" selection-start-line="3923" selection-start-column="2" selection-end-line="3923" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/Lesson/Lesson.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#508#631#0" expanded="true" />
+            <element signature="e#711#870#0" expanded="true" />
+            <element signature="e#837#865#0" expanded="true" />
+            <element signature="e#880#980#0" expanded="true" />
+            <element signature="e#993#1026#0" expanded="true" />
+            <element signature="e#1037#1064#0" expanded="true" />
+            <element signature="e#1079#1176#0" expanded="true" />
+            <element signature="e#1195#1316#0" expanded="true" />
+            <element signature="e#1432#1433#0" expanded="true" />
+            <element signature="e#1463#1464#0" expanded="true" />
+            <element signature="e#1480#1993#0" expanded="true" />
+            <element signature="e#1522#1847#0" expanded="true" />
+            <element signature="e#1430#1545#0" expanded="true" />
+            <element signature="e#1419#1527#0" expanded="true" />
+            <element signature="e#1438#1514#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/Lesson/LessonHeader/LessonHeader.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="95">
-            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            <folding>
-              <element signature="e#239#468#1" expanded="true" />
-              <element signature="e#257#451#0" expanded="true" />
-            </folding>
+          <first_editor relative-caret-position="114">
+            <caret line="6" selection-start-line="6" selection-end-line="6" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/Lesson/LessonHeader/LessonHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#407#640#0" expanded="true" />
+            <element signature="e#689#753#0" expanded="true" />
+            <element signature="e#696#1272#0" expanded="true" />
+            <element signature="e#741#973#0" expanded="true" />
+            <element signature="e#785#950#0" expanded="true" />
+            <element signature="e#988#1176#0" expanded="true" />
+            <element signature="e#1075#1135#0" expanded="true" />
+            <element signature="e#1192#1230#0" expanded="true" />
+            <element signature="e#1241#1269#0" expanded="true" />
+            <element signature="e#1410#1420#0" expanded="true" />
+            <element signature="e#1240#1733#0" expanded="true" />
+            <element signature="e#1363#1474#0" expanded="true" />
+            <element signature="e#1481#1721#0" expanded="true" />
+            <element signature="e#1501#1707#0" expanded="true" />
+            <element signature="e#1566#1623#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/components/SideMenu/SideMenu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        <state relative-caret-position="304">
+          <caret line="106" column="11" selection-start-line="106" selection-start-column="11" selection-end-line="106" selection-end-column="11" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
             <element signature="e#376#837#0" expanded="true" />
@@ -595,39 +827,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/Button/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-start-column="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/Lesson/Lesson.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#1143#1208#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/PropTypes/PropTypes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="47" lean-forward="true" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+    <entry file="file://$PROJECT_DIR$/src/app/components/SideMenu/SideMenu.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="209">
+            <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styleguide.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="209">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
           <folding>
-            <element signature="e#785#884#0" expanded="true" />
-            <element signature="e#818#877#0" expanded="true" />
+            <element signature="e#446#516#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="44" column="27" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
         </state>
       </provider>
     </entry>

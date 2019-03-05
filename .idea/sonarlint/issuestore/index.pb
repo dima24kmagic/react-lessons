@@ -40,8 +40,6 @@ S
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
 F
 src/app/theme/theme.js,2/4/24b57193ac2e311290bab56ee5157f80c7312944
-I
-src/styleguide/Wrapper.js,e/3/e34e2a21f447bb33014afcfe25c266508aff0634
 S
 #src/app/components/Button/Button.md,1/e/1e01876310f077ebbb85bdd468ad5ac276e253b9
 S
