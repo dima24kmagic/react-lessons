@@ -5,7 +5,7 @@ export const lessonPropType = PropTypes.shape({
   id: PropTypes.string.isRequired,
   /** Lesson title */
   title: PropTypes.string.isRequired,
-  /** is Pure Text */
+  /** Body in md format */
   body: PropTypes.string.isRequired,
 })
 

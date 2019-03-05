@@ -6,12 +6,10 @@ import MenuItem from '@material-ui/core/MenuItem'
 import cn from 'classnames'
 import Typography from '@material-ui/core/Typography'
 import { NavLink } from 'react-router-dom'
+import IconButton from '@material-ui/core/IconButton'
+import MenuIcn from '@material-ui/icons/Menu'
 
 const propTypes = {
-  /** Toggle Menu expanded */
-  toggleMenu: PropTypes.func.isRequired,
-  /** Is menu open */
-  isOpen: PropTypes.bool,
   /** Which side menu should be draggable from */
   side: PropTypes.oneOf(['right']),
   /** Items in menu */
@@ -63,11 +61,8 @@ const styles = {
   },
   burgerWrapper: {
     position: 'fixed',
-    top: 32,
-    right: 32,
-    height: 48,
-    width: 48,
-    background: 'rgba(0,0,0,.1)',
+    top: 8,
+    right: 8,
   },
 }
 
@@ -82,7 +77,11 @@ function SideMenu({ classes, side, links }) {
   }
   return (
     <Grid container>
-      <Grid item className={classes.burgerWrapper} onClick={onMenuToggle} />
+      <Grid item className={classes.burgerWrapper} onClick={onMenuToggle}>
+        <IconButton>
+          <MenuIcn />
+        </IconButton>
+      </Grid>
       <SwipeableDrawer
         onClose={onMenuToggle}
         onOpen={onMenuToggle}

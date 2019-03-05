@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import Lesson from '../../components/Lesson'
+import Grid from '@material-ui/core/Grid'
+import LessonsSection from '../../components/LessonsSection'
 
 class Home extends Component {
   render() {
@@ -28,9 +30,11 @@ class Home extends Component {
   `,
     }
     return (
-      <div>
-        <Lesson lesson={lesson} />
-      </div>
+      <Grid container>
+        <Grid item>
+          <LessonsSection />
+        </Grid>
+      </Grid>
     )
   }
 }

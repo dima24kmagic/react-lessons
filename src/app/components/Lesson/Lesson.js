@@ -20,10 +20,7 @@ const defaultProps = {}
 
 const styles = {
   root: {
-    padding: '4px 16px',
     borderBottom: '2px solid rgba(0,0,0,.1)',
-    borderBottomLeftRadius: 8,
-    borderBottomRightRadius: 8,
   },
   menu: {
     display: 'flex',
