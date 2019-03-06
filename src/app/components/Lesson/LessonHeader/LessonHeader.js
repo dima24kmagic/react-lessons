@@ -55,6 +55,7 @@ const styles = theme => ({
     cursor: 'pointer',
   },
   titleTypography: {
+    fontWeight: 800,
     color: theme.palette.colors.green,
   },
 })

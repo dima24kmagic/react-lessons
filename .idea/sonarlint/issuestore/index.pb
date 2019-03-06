@@ -13,8 +13,6 @@ $src/app/components/SideMenu/index.js,f/b/fbd47af346e4b81160878410dc8c967953e52
 package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
 W
 'src/app/components/SideMenu/SideMenu.js,d/4/d49da35ab3c06a20e2e039d046fcba32475854c1
-W
-'src/app/components/RoundBtn/RoundBtn.js,7/9/79d2af78d1344896b0a9938f15b02c7c34e17890
 N
 src/app/screens/About/About.js,8/9/89efc50497d1c136a823b804e844716011f39274
 L
@@ -40,9 +38,29 @@ S
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
 F
 src/app/theme/theme.js,2/4/24b57193ac2e311290bab56ee5157f80c7312944
-S
-#src/app/components/Button/Button.md,1/e/1e01876310f077ebbb85bdd468ad5ac276e253b9
-S
-#src/app/components/Button/Button.js,4/d/4db5f65293aeebc900ec401174cd594b3df0b03e
 W
 'src/app/components/SideMenu/SideMenu.md,2/9/29fb4fed82274f6587db8d0400646efec209c9d2
+W
+'src/app/components/SideMenu/mockdata.js,5/3/536e974575c468d7e09e71fc2ef30e7d1ed2da81
+U
+%src/app/components/CodeBlock/index.js,7/3/730f60e42970a9be74905171bf2ed942dc1b7e58
+M
+src/app/styleguide/Wrapper.js,8/5/85ad124e99798d18956d3819464774587964d36b
+f
+6src/app/components/Lesson/LessonHeader/LessonHeader.md,e/a/eada80654ef432eef3d5ae264fc369d5568c2ad8
+A
+public/index.html,f/4/f43ecdf8d666ee908aacce037b4cd72159e4741b
+Y
+)src/app/components/CodeBlock/CodeBlock.js,3/3/339bcffd785d3f26c216ae35582ebb02cfd377f6
+@
+src/app/theme.js,9/4/9495f7f6a44e938279c9d31293981cb87b729b51
+>
+src/index.scss,5/b/5bfd084cc3a318b78f32da1cd49fc9f987fb897f
+S
+#src/app/components/Lesson/Lesson.md,b/f/bfda8b468ab75be559b5955226724ca6e37c1a7d
+c
+3src/app/components/LessonsSection/LessonsSection.md,e/3/e32e0aeb72549357abfa849c3c8aec47ce73a174
+f
+6src/app/components/Lesson/LessonHeader/LessonHeader.js,1/f/1fd9ad642ef490888c7009727dd4e153d09352ff
+^
+.src/app/components/LessonsSection/constants.js,7/0/70e4761d99ef0a22a64bacdd4729b7364d0ea545

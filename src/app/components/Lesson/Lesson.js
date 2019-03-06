@@ -20,6 +20,7 @@ const defaultProps = {}
 
 const styles = {
   root: {
+    padding: '6px 0',
     borderBottom: '2px solid rgba(0,0,0,.1)',
   },
   menu: {
