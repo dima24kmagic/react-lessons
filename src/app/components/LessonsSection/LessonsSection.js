@@ -25,6 +25,12 @@ const styles = {
   sectionTitle: {
     fontWeight: 800,
   },
+  sectionItem: {
+    borderTop: '2px solid rgba(0,0,0,.3)',
+    '&:last-child': {
+      borderBottom: '2px solid rgba(0,0,0,.3)',
+    },
+  },
 }
 
 /**
@@ -34,12 +40,16 @@ export function LessonsSection({ classes, title, lessons }) {
   return (
     <Grid container direction="column">
       <Grid item>
-        <Typography variant="display2" className={classes.sectionTitle}>
+        <Typography
+          gutterBottom
+          variant="display2"
+          className={classes.sectionTitle}
+        >
           {title}
         </Typography>
       </Grid>
       {lessons.map(lesson => (
-        <Grid item key={lesson.id}>
+        <Grid item className={classes.sectionItem} key={lesson.id}>
           <Lesson lesson={lesson} />
         </Grid>
       ))}

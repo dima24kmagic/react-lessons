@@ -27,6 +27,14 @@ const defaultProps = {
 }
 
 const styles = theme => ({
+  header: {
+    padding: '4px',
+    cursor: 'pointer',
+    transition: 'background .1s',
+    '&:hover': {
+      background: 'rgba(0,0,0,.1)',
+    },
+  },
   lessonNotAvailable: {
     position: 'relative',
     '&::after': {
@@ -55,6 +63,7 @@ const styles = theme => ({
     cursor: 'pointer',
   },
   titleTypography: {
+    textDecoration: 'underline',
     fontWeight: 800,
     color: theme.palette.colors.green,
   },
@@ -69,7 +78,7 @@ export function LessonHeader({
   isAvailable,
   title,
 }) {
-  const headerClass = cn({
+  const headerClass = cn(classes.header, {
     [classes.lessonNotAvailable]: !isAvailable,
   })
   return (
@@ -78,8 +87,9 @@ export function LessonHeader({
       justify="flex-start"
       alignItems="center"
       className={headerClass}
+      onClick={onExpand}
     >
-      <Grid item onClick={onExpand} className={classes.title}>
+      <Grid item className={classes.title}>
         <Typography className={classes.titleTypography} variant="title">
           {title}
         </Typography>
@@ -89,7 +99,6 @@ export function LessonHeader({
           className={cn(classes.expandBtn, {
             [classes.expandOpen]: expanded,
           })}
-          onClick={onExpand}
         >
           <ExpandMoreIcon />
         </IconButton>

@@ -8,6 +8,7 @@ import Collapse from '@material-ui/core/Collapse'
 import { lessonPropType } from '../../PropTypes/PropTypes'
 import LessonHeader from './LessonHeader/LessonHeader'
 import CodeBlock from '../CodeBlock'
+import Typography from '@material-ui/core/es/Typography/Typography'
 
 const propTypes = {
   /** Lesson proptype */
@@ -18,53 +19,13 @@ const propTypes = {
 
 const defaultProps = {}
 
-const styles = {
-  root: {
-    padding: '6px 0',
-    borderBottom: '2px solid rgba(0,0,0,.1)',
-  },
-  menu: {
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    width: 300,
-    '@media(max-width: 768px)': {
-      width: '70vw',
-    },
-  },
-  item: {
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    width: '100%',
-  },
-  navLink: {
-    textDecoration: 'none',
-  },
-  intro: {
-    color: '#121212',
-  },
-  itemIntro: {
-    display: 'flex',
-    justifyContent: 'center',
-    width: '100%',
-    margin: '16px 0',
-  },
-  burgerWrapper: {
-    position: 'fixed',
-    top: 32,
-    right: 32,
-    height: 48,
-    width: 48,
-    background: 'rgba(0,0,0,.1)',
-  },
-}
+const styles = {}
 
 /**
  * Lesson component
  */
 function Lesson({ classes, lesson }) {
-  const [expanded, setExpanded] = useState(false)
+  const [expanded, setExpanded] = useState(true)
   function onExpand() {
     setExpanded(!expanded)
   }
@@ -79,7 +40,12 @@ function Lesson({ classes, lesson }) {
       </Grid>
       <Collapse in={expanded}>
         <Grid item>
-          <ReactMarkdown source={lesson.body} renderers={{ code: CodeBlock }} />
+          <Typography variant="body2">
+            <ReactMarkdown
+              source={lesson.body}
+              renderers={{ code: CodeBlock }}
+            />
+          </Typography>
         </Grid>
       </Collapse>
     </Grid>
