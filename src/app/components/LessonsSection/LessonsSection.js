@@ -22,8 +22,16 @@ const defaultProps = {
 }
 
 const styles = {
+  root: {
+    width: '80%',
+    margin: '0 auto',
+  },
   sectionTitle: {
     fontWeight: 800,
+    paddingTop: 48,
+    paddingLeft: 8,
+    color: '#000714',
+    textAlign: 'center',
   },
   sectionItem: {
     borderTop: '2px solid rgba(0,0,0,.3)',
@@ -38,7 +46,7 @@ const styles = {
  */
 export function LessonsSection({ classes, title, lessons }) {
   return (
-    <Grid container direction="column">
+    <Grid container direction="column" className={classes.root}>
       <Grid item>
         <Typography
           gutterBottom

@@ -24,9 +24,9 @@ class App extends Component {
           <Fragment>
             <SideMenu side="right" links={this.links} />
             <Switch>
-              <Route exact path="/" component={Home} />
               <Route path="/lessons" component={Lessons} />
               <Route path="/about" component={About} />
+              <Route exact path="/" component={Home} />
             </Switch>
           </Fragment>
         </BrowserRouter>

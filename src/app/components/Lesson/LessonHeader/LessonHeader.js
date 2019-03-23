@@ -63,7 +63,7 @@ const styles = theme => ({
     cursor: 'pointer',
   },
   titleTypography: {
-    textDecoration: 'underline',
+    // textDecoration: 'underline',
     fontWeight: 800,
     color: theme.palette.colors.green,
   },
@@ -84,7 +84,7 @@ export function LessonHeader({
   return (
     <Grid
       container
-      justify="flex-start"
+      justify="center"
       alignItems="center"
       className={headerClass}
       onClick={onExpand}

@@ -7,9 +7,23 @@
 html {
   width: 100%;
   overflow-x: hidden;
+  color: #424242;
 }
 
 body {
   width: 100%;
   overflow-x: hidden;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+p {
+  line-height: 1.4rem;
+}
+
+pre {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }

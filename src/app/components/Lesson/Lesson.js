@@ -4,11 +4,11 @@ import { withStyles } from '@material-ui/core'
 import Grid from '@material-ui/core/Grid/Grid'
 import ReactMarkdown from 'react-markdown'
 import Collapse from '@material-ui/core/Collapse'
+import Typography from '@material-ui/core/es/Typography/Typography'
 
 import { lessonPropType } from '../../PropTypes/PropTypes'
 import LessonHeader from './LessonHeader/LessonHeader'
 import CodeBlock from '../CodeBlock'
-import Typography from '@material-ui/core/es/Typography/Typography'
 
 const propTypes = {
   /** Lesson proptype */
@@ -19,13 +19,26 @@ const propTypes = {
 
 const defaultProps = {}
 
-const styles = {}
-
+const styles = theme => ({
+  infoContainer: {
+    display: 'flex',
+    flexDirection: 'column',
+    fontFamily: theme.fontFamily,
+    alignItems: 'center',
+    padding: '16px 0px',
+  },
+  root: {
+    width: '100%',
+  },
+  lesson: {
+    width: 800,
+  },
+})
 /**
  * Lesson component
  */
 function Lesson({ classes, lesson }) {
-  const [expanded, setExpanded] = useState(true)
+  const [expanded, setExpanded] = useState(false)
   function onExpand() {
     setExpanded(!expanded)
   }
@@ -40,12 +53,14 @@ function Lesson({ classes, lesson }) {
       </Grid>
       <Collapse in={expanded}>
         <Grid item>
-          <Typography variant="body2">
-            <ReactMarkdown
-              source={lesson.body}
-              renderers={{ code: CodeBlock }}
-            />
-          </Typography>
+          <div className={classes.infoContainer}>
+            <div className={classes.lesson}>
+              <ReactMarkdown
+                source={lesson.body}
+                renderers={{ code: CodeBlock }}
+              />
+            </div>
+          </div>
         </Grid>
       </Collapse>
     </Grid>

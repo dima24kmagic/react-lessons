@@ -12,6 +12,7 @@ const theme = createMuiTheme({
       lightGrey: 'rgba(0,0,0,.3)',
     },
   },
+  fontFamily: 'Roboto, Helvetica, Arial, sans-serif',
 })
 
 export default theme
