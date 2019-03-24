@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react'
-import { HashRouter, Route } from 'react-router-dom'
+import { HashRouter, Route, Switch } from 'react-router-dom'
 import { MuiThemeProvider } from '@material-ui/core'
 
 import SideMenu from './components/SideMenu'
@@ -20,9 +20,12 @@ class App extends Component {
         <HashRouter>
           <Fragment>
             <SideMenu side="right" links={this.links} />
-            <Route exact path="/" component={Home} />
-            <Route path="/lessons" component={Lessons} />
-            <Route path="/about" component={About} />
+            <Switch>
+              <Route path="/lessons/:id" component={Lessons} />
+              <Route path="/lessons" component={Lessons} />
+              <Route path="/about" component={About} />
+              <Route exact path="/" component={Home} />
+            </Switch>
           </Fragment>
         </HashRouter>
       </MuiThemeProvider>

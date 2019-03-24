@@ -79,7 +79,7 @@ function SideMenu({ classes, side, links }) {
     <Grid container>
       <Grid item className={classes.burgerWrapper} onClick={onMenuToggle}>
         <IconButton>
-          <MenuIcn />
+          <MenuIcn style={{ color: 'white' }} />
         </IconButton>
       </Grid>
       <SwipeableDrawer
