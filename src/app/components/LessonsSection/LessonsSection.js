@@ -9,6 +9,7 @@ import { Link } from 'react-router-dom'
 import cn from 'classnames'
 
 import { lessonPropType } from '../../PropTypes/PropTypes'
+import ParsedLesson from '../Lesson/ParsedLesson'
 
 const propTypes = {
   /** Title of a section */
@@ -80,14 +81,25 @@ const styles = {
       transform: 'translateX(4px)',
     },
   },
+  currentLesson: {
+    color: '#0099ff',
+  },
 
   lessonBody: {
     width: '80%',
-    background: '#000000',
+    background: '#dfdfdf',
   },
 
-  currentLesson: {
-    color: '#0099ff',
+  lessonViewContainer: {
+    paddingTop: 48,
+    paddingLeft: 48,
+    height: '100%',
+    width: '100%',
+    overflowY: 'scroll',
+  },
+  lessonView: {
+    maxWidth: 1200,
+    height: '100%',
   },
 }
 
@@ -96,6 +108,7 @@ const styles = {
  */
 export function LessonsSection({ classes, title, lessons, match }) {
   const currentLessonId = getOr(null, ['params', 'id'], match)
+  const currentLesson = lessons.filter(({ id }) => id === currentLessonId)
   return (
     <Grid container className={classes.root}>
       <Grid item className={classes.lessonsDescription}>
@@ -139,7 +152,13 @@ export function LessonsSection({ classes, title, lessons, match }) {
           </Grid>
         </Grid>
       </Grid>
-      <Grid item className={classes.lessonBody} />
+      <Grid item className={classes.lessonBody}>
+        <Grid container className={classes.lessonViewContainer}>
+          <Grid item className={classes.lessonView}>
+            <ParsedLesson lesson={currentLesson[0]} />
+          </Grid>
+        </Grid>
+      </Grid>
     </Grid>
   )
 }

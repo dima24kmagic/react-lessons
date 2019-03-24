@@ -62,7 +62,7 @@ const styles = {
   burgerWrapper: {
     position: 'fixed',
     top: 8,
-    right: 8,
+    right: 22,
   },
 }
 

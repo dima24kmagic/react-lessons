@@ -24,43 +24,11 @@
       <change afterPath="$PROJECT_DIR$/../labs/l27/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../labs/l27/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../labs/16/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../labs/16/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/react-lessons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/react-lessons.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/3/53583be5111df60648a9097bb009fa85b6203287" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/3/53583be5111df60648a9097bb009fa85b6203287" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/7030d0b2f71b999ff89a343de08c414af32fc93a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/7030d0b2f71b999ff89a343de08c414af32fc93a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/920ab6ab4a57ee20a36df4e3e2e73b70f9969d14" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/920ab6ab4a57ee20a36df4e3e2e73b70f9969d14" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/4/94fd7305945bef8279d336617fddfb044a4e467c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/4/94fd7305945bef8279d336617fddfb044a4e467c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d49da35ab3c06a20e2e039d046fcba32475854c1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d49da35ab3c06a20e2e039d046fcba32475854c1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f900edc44cb929c2267a16100a32851f6d5b477d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f900edc44cb929c2267a16100a32851f6d5b477d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fbd47af346e4b81160878410dc8c967953e52a83" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fbd47af346e4b81160878410dc8c967953e52a83" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/PropTypes/PropTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/PropTypes/PropTypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/Lesson/Lesson.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Lesson/Lesson.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/LessonsSection/LessonsSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/LessonsSection/LessonsSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/RoundBtn/RoundBtn.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/SideMenu/SideMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/SideMenu/SideMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/SideMenu/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/SideMenu/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/screens/About/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/screens/About/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/screens/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/screens/Home/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/screens/Lessons/Lessons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/screens/Lessons/Lessons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -120,21 +88,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+            <state relative-caret-position="266">
+              <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/screens/Lessons/Lessons.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
-                <element signature="e#338#460#0" expanded="true" />
-                <element signature="e#386#507#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -143,10 +109,42 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+            <state relative-caret-position="475">
+              <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/components/SideMenu/SideMenu.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="472">
+              <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#490#832#0" expanded="true" />
+                <element signature="e#649#765#0" expanded="true" />
+                <element signature="e#855#905#0" expanded="true" />
+                <element signature="e#932#1091#0" expanded="true" />
+                <element signature="e#1058#1086#0" expanded="true" />
+                <element signature="e#1101#1201#0" expanded="true" />
+                <element signature="e#1214#1247#0" expanded="true" />
+                <element signature="e#1258#1285#0" expanded="true" />
+                <element signature="e#1300#1397#0" expanded="true" />
+                <element signature="e#1650#1651#0" expanded="true" />
+                <element signature="e#1677#1678#0" expanded="true" />
+                <element signature="e#1694#2822#0" expanded="true" />
+                <element signature="e#1717#1891#0" expanded="true" />
+                <element signature="e#1794#1877#0" expanded="true" />
+                <element signature="e#1898#2810#0" expanded="true" />
+                <element signature="e#2036#2785#0" expanded="true" />
+                <element signature="e#2082#2438#0" expanded="true" />
+                <element signature="e#2135#2416#0" expanded="true" />
+                <element signature="e#2194#2393#0" expanded="true" />
+                <element signature="e#2482#2751#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -164,8 +162,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/components/LessonsSection/LessonsSection.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1282">
-              <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
+            <state relative-caret-position="111">
+              <caret line="73" column="15" lean-forward="true" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
                 <element signature="e#456#643#0" expanded="true" />
@@ -177,10 +175,12 @@
                 <element signature="e#1188#1308#0" expanded="true" />
                 <element signature="e#1320#1346#0" expanded="true" />
                 <element signature="e#1366#1500#0" expanded="true" />
-                <element signature="e#1516#1718#0" expanded="true" />
                 <element signature="e#1702#1769#0" expanded="true" />
-                <element signature="e#1735#1785#0" expanded="true" />
-                <element signature="e#1975#3663#0" expanded="true" />
+                <element signature="e#1952#1979#0" expanded="true" />
+                <element signature="e#1841#1932#0" expanded="true" />
+                <element signature="e#1963#2072#0" expanded="true" />
+                <element signature="e#2088#2133#0" expanded="true" />
+                <element signature="e#2244#4103#0" expanded="true" />
                 <element signature="e#2023#3600#0" expanded="true" />
                 <element signature="e#2082#3586#0" expanded="true" />
                 <element signature="e#2128#2317#0" expanded="true" />
@@ -193,6 +193,9 @@
                 <element signature="e#2953#3037#0" expanded="true" />
                 <element signature="e#3083#3439#0" expanded="true" />
                 <element signature="e#3162#3409#0" expanded="true" />
+                <element signature="e#3873#4091#0" expanded="true" />
+                <element signature="e#3924#4077#0" expanded="true" />
+                <element signature="e#3951#4061#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -225,6 +228,7 @@
       <find>Теперь ва</find>
       <find>state -</find>
       <find>block</find>
+      <find>20</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -271,17 +275,17 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/app/theme.js" />
         <option value="$PROJECT_DIR$/src/app/components/CodeBlock/CodeBlock.js" />
-        <option value="$PROJECT_DIR$/src/index.scss" />
         <option value="$PROJECT_DIR$/src/app/components/LessonsSection/constants.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/app/components/Lesson/LessonHeader/LessonHeader.js" />
         <option value="$PROJECT_DIR$/src/app/components/Lesson/ParsedLesson/index.js" />
         <option value="$PROJECT_DIR$/src/app/components/Lesson/ParsedLesson/ParsedLesson.js" />
         <option value="$PROJECT_DIR$/src/app/components/Lesson/Lesson.js" />
-        <option value="$PROJECT_DIR$/src/app/components/SideMenu/SideMenu.js" />
-        <option value="$PROJECT_DIR$/src/app/App.js" />
-        <option value="$PROJECT_DIR$/src/app/components/LessonsSection/LessonsSection.js" />
         <option value="$PROJECT_DIR$/src/app/screens/Lessons/Lessons.js" />
+        <option value="$PROJECT_DIR$/src/app/App.js" />
+        <option value="$PROJECT_DIR$/src/index.scss" />
+        <option value="$PROJECT_DIR$/src/app/components/LessonsSection/LessonsSection.js" />
+        <option value="$PROJECT_DIR$/src/app/components/SideMenu/SideMenu.js" />
       </list>
     </option>
   </component>
@@ -414,7 +418,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553432739785" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553433806681" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.13.0" />
@@ -483,12 +487,12 @@
       <workItem from="1553268709397" duration="318000" />
       <workItem from="1553330888478" duration="2755000" />
       <workItem from="1553334410606" duration="8492000" />
-      <workItem from="1553415737300" duration="15756000" />
+      <workItem from="1553415737300" duration="16803000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63426000" />
+    <option name="totallyTimeSpent" value="64473000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
@@ -514,7 +518,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="RNConsole" order="10" weight="0.32914045" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.35455543" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.35455543" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="14" />
       <window_info anchor="right" id="Merger" order="0" />
@@ -831,13 +835,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -895,46 +892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/CodeBlock/CodeBlock.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding>
-            <element signature="e#392#512#0" expanded="true" />
-            <element signature="e#406#505#0" expanded="true" />
-            <element signature="e#548#610#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/SideMenu/SideMenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="81" column="40" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#490#832#0" expanded="true" />
-            <element signature="e#649#765#0" expanded="true" />
-            <element signature="e#855#905#0" expanded="true" />
-            <element signature="e#922#1473#0" expanded="true" />
-            <element signature="e#932#1091#0" expanded="true" />
-            <element signature="e#1058#1086#0" expanded="true" />
-            <element signature="e#1101#1201#0" expanded="true" />
-            <element signature="e#1214#1247#0" expanded="true" />
-            <element signature="e#1258#1285#0" expanded="true" />
-            <element signature="e#1300#1397#0" expanded="true" />
-            <element signature="e#1416#1470#0" expanded="true" />
-            <element signature="e#1650#1651#0" expanded="true" />
-            <element signature="e#1677#1678#0" expanded="true" />
-            <element signature="e#1871#2783#0" expanded="true" />
-            <element signature="e#2009#2758#0" expanded="true" />
-            <element signature="e#2055#2411#0" expanded="true" />
-            <element signature="e#2108#2389#0" expanded="true" />
-            <element signature="e#2167#2366#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/components/Lesson/Lesson.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="447">
@@ -970,18 +927,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        <state relative-caret-position="475">
+          <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/CodeBlock/CodeBlock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="e#392#512#0" expanded="true" />
+            <element signature="e#406#505#0" expanded="true" />
+            <element signature="e#548#610#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/screens/Lessons/Lessons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/components/LessonsSection/LessonsSection.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1282">
-          <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
+        <state relative-caret-position="111">
+          <caret line="73" column="15" lean-forward="true" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
             <element signature="e#456#643#0" expanded="true" />
@@ -993,10 +979,12 @@
             <element signature="e#1188#1308#0" expanded="true" />
             <element signature="e#1320#1346#0" expanded="true" />
             <element signature="e#1366#1500#0" expanded="true" />
-            <element signature="e#1516#1718#0" expanded="true" />
             <element signature="e#1702#1769#0" expanded="true" />
-            <element signature="e#1735#1785#0" expanded="true" />
-            <element signature="e#1975#3663#0" expanded="true" />
+            <element signature="e#1952#1979#0" expanded="true" />
+            <element signature="e#1841#1932#0" expanded="true" />
+            <element signature="e#1963#2072#0" expanded="true" />
+            <element signature="e#2088#2133#0" expanded="true" />
+            <element signature="e#2244#4103#0" expanded="true" />
             <element signature="e#2023#3600#0" expanded="true" />
             <element signature="e#2082#3586#0" expanded="true" />
             <element signature="e#2128#2317#0" expanded="true" />
@@ -1009,18 +997,39 @@
             <element signature="e#2953#3037#0" expanded="true" />
             <element signature="e#3083#3439#0" expanded="true" />
             <element signature="e#3162#3409#0" expanded="true" />
+            <element signature="e#3873#4091#0" expanded="true" />
+            <element signature="e#3924#4077#0" expanded="true" />
+            <element signature="e#3951#4061#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/screens/Lessons/Lessons.js">
+    <entry file="file://$PROJECT_DIR$/src/app/components/SideMenu/SideMenu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        <state relative-caret-position="472">
+          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
-            <element signature="e#338#460#0" expanded="true" />
-            <element signature="e#386#507#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#490#832#0" expanded="true" />
+            <element signature="e#649#765#0" expanded="true" />
+            <element signature="e#855#905#0" expanded="true" />
+            <element signature="e#932#1091#0" expanded="true" />
+            <element signature="e#1058#1086#0" expanded="true" />
+            <element signature="e#1101#1201#0" expanded="true" />
+            <element signature="e#1214#1247#0" expanded="true" />
+            <element signature="e#1258#1285#0" expanded="true" />
+            <element signature="e#1300#1397#0" expanded="true" />
+            <element signature="e#1650#1651#0" expanded="true" />
+            <element signature="e#1677#1678#0" expanded="true" />
+            <element signature="e#1694#2822#0" expanded="true" />
+            <element signature="e#1717#1891#0" expanded="true" />
+            <element signature="e#1794#1877#0" expanded="true" />
+            <element signature="e#1898#2810#0" expanded="true" />
+            <element signature="e#2036#2785#0" expanded="true" />
+            <element signature="e#2082#2438#0" expanded="true" />
+            <element signature="e#2135#2416#0" expanded="true" />
+            <element signature="e#2194#2393#0" expanded="true" />
+            <element signature="e#2482#2751#0" expanded="true" />
           </folding>
         </state>
       </provider>

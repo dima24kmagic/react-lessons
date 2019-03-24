@@ -6,15 +6,11 @@ import LessonsSection from '../../components/LessonsSection'
 class Lessons extends Component {
   render() {
     return (
-      <Grid container>
-        <Grid item style={{ width: '100%' }}>
-          <LessonsSection
-            title="Основы ReactJS"
-            lessons={lessons}
-            {...this.props}
-          />
-        </Grid>
-      </Grid>
+      <LessonsSection
+        title="Основы ReactJS"
+        lessons={lessons}
+        {...this.props}
+      />
     )
   }
 }
