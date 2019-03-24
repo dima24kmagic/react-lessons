@@ -8,6 +8,7 @@ import { lessonPropType } from '../../PropTypes/PropTypes'
 import LessonHeader from './LessonHeader/LessonHeader'
 import CodeBlock from '../CodeBlock'
 import HtmlParser from '../HtmlParser/HtmlParser'
+import ParsedLesson from './ParsedLesson'
 
 const propTypes = {
   /** Lesson proptype */
@@ -56,10 +57,7 @@ function Lesson({ classes, lesson }) {
         <Grid item>
           <div className={classes.infoContainer}>
             <div className={classes.lesson}>
-              <ReactMarkdown
-                source={lesson.body}
-                renderers={{ code: CodeBlock, html: HtmlParser }}
-              />
+              <ParsedLesson lesson={lesson} />
             </div>
           </div>
         </Grid>

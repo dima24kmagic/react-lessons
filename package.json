@@ -1,5 +1,6 @@
 {
-  "name": "reactlessons",
+  "name": "react-lessons",
+  "homepage": "https://dima24kmagic.github.io/react-lessons",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

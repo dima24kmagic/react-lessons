@@ -27,7 +27,8 @@ const styles = {
     margin: '0 auto',
   },
   sectionTitle: {
-    fontWeight: 800,
+    // textTransform: 'uppercase',
+    letterSpacing: 6,
     paddingTop: 48,
     paddingLeft: 8,
     color: '#000714',

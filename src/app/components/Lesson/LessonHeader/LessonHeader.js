@@ -63,9 +63,8 @@ const styles = theme => ({
     cursor: 'pointer',
   },
   titleTypography: {
-    // textDecoration: 'underline',
-    fontWeight: 800,
-    color: theme.palette.colors.green,
+    // fontWeight: 800,
+    // color: theme.palette.colors.green,
   },
 })
 /**
