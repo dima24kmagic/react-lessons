@@ -25,7 +25,7 @@
       <change afterPath="$PROJECT_DIR$/../labs/l27/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../labs/16/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../labs/16/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/LessonsSection/LessonsSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/LessonsSection/LessonsSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/SideMenu/SideMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/SideMenu/SideMenu.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/components/SideMenu/SideMenu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="100" column="32" selection-start-line="100" selection-start-column="32" selection-end-line="100" selection-end-column="32" />
+            <state relative-caret-position="342">
+              <caret line="99" column="44" selection-start-line="99" selection-start-column="44" selection-end-line="99" selection-end-column="44" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
                 <element signature="e#500#898#0" expanded="true" />
@@ -133,11 +133,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/components/LessonsSection/LessonsSection.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="447">
-              <caret line="88" column="18" lean-forward="true" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
+              <caret line="88" column="18" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
                 <element signature="e#456#643#0" expanded="true" />
@@ -259,8 +259,8 @@
         <option value="$PROJECT_DIR$/src/app/screens/Lessons/Lessons.js" />
         <option value="$PROJECT_DIR$/src/index.scss" />
         <option value="$PROJECT_DIR$/src/app/App.js" />
-        <option value="$PROJECT_DIR$/src/app/components/SideMenu/SideMenu.js" />
         <option value="$PROJECT_DIR$/src/app/components/LessonsSection/LessonsSection.js" />
+        <option value="$PROJECT_DIR$/src/app/components/SideMenu/SideMenu.js" />
       </list>
     </option>
   </component>
@@ -393,7 +393,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553436365643" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553436432963" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.13.0" />
@@ -462,12 +462,12 @@
       <workItem from="1553268709397" duration="318000" />
       <workItem from="1553330888478" duration="2755000" />
       <workItem from="1553334410606" duration="8492000" />
-      <workItem from="1553415737300" duration="19379000" />
+      <workItem from="1553415737300" duration="19446000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67049000" />
+    <option name="totallyTimeSpent" value="67116000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
@@ -493,7 +493,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="RNConsole" order="10" weight="0.32914045" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.35455543" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.35455543" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="14" />
       <window_info anchor="right" id="Merger" order="0" />
@@ -930,34 +930,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/SideMenu/SideMenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="100" column="32" selection-start-line="100" selection-start-column="32" selection-end-line="100" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-            <element signature="e#500#898#0" expanded="true" />
-            <element signature="e#649#765#0" expanded="true" />
-            <element signature="e#855#905#0" expanded="true" />
-            <element signature="e#845#1529#0" expanded="true" />
-            <element signature="e#932#1091#0" expanded="true" />
-            <element signature="e#1058#1086#0" expanded="true" />
-            <element signature="e#1101#1201#0" expanded="true" />
-            <element signature="e#1214#1247#0" expanded="true" />
-            <element signature="e#1258#1285#0" expanded="true" />
-            <element signature="e#1300#1397#0" expanded="true" />
-            <element signature="e#1416#1470#0" expanded="true" />
-            <element signature="e#1404#1414#0" expanded="true" />
-            <element signature="e#1431#1473#0" expanded="true" />
-            <element signature="e#1490#1526#0" expanded="true" />
-            <element signature="e#1650#1651#0" expanded="true" />
-            <element signature="e#1677#1678#0" expanded="true" />
-            <element signature="e#1969#2009#0" expanded="true" />
-            <element signature="e#1869#1909#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/screens/Lessons/Lessons.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -971,7 +943,7 @@
     <entry file="file://$PROJECT_DIR$/src/app/components/LessonsSection/LessonsSection.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="447">
-          <caret line="88" column="18" lean-forward="true" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
+          <caret line="88" column="18" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
             <element signature="e#456#643#0" expanded="true" />
@@ -1005,6 +977,34 @@
             <element signature="e#3736#3992#0" expanded="true" />
             <element signature="e#4167#4425#0" expanded="true" />
             <element signature="e#4234#4409#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/SideMenu/SideMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="99" column="44" selection-start-line="99" selection-start-column="44" selection-end-line="99" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+            <element signature="e#500#898#0" expanded="true" />
+            <element signature="e#649#765#0" expanded="true" />
+            <element signature="e#855#905#0" expanded="true" />
+            <element signature="e#845#1529#0" expanded="true" />
+            <element signature="e#932#1091#0" expanded="true" />
+            <element signature="e#1058#1086#0" expanded="true" />
+            <element signature="e#1101#1201#0" expanded="true" />
+            <element signature="e#1214#1247#0" expanded="true" />
+            <element signature="e#1258#1285#0" expanded="true" />
+            <element signature="e#1300#1397#0" expanded="true" />
+            <element signature="e#1416#1470#0" expanded="true" />
+            <element signature="e#1404#1414#0" expanded="true" />
+            <element signature="e#1431#1473#0" expanded="true" />
+            <element signature="e#1490#1526#0" expanded="true" />
+            <element signature="e#1650#1651#0" expanded="true" />
+            <element signature="e#1677#1678#0" expanded="true" />
+            <element signature="e#1969#2009#0" expanded="true" />
+            <element signature="e#1869#1909#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -97,7 +97,7 @@ function SideMenu({ classes, children }) {
   return (
     <Fragment>
       <Grid item className={iconClass} onClick={onMenuToggle}>
-        <IconButton style={{ color: 'white' }}>
+        <IconButton style={{ color: '#00555f' }}>
           {isOpen ? <CloseIcn /> : <MenuIcn />}
         </IconButton>
       </Grid>
