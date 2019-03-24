@@ -1,13 +1,11 @@
-import React, { useState } from 'react'
+import React, { Fragment, useState } from 'react'
 import PropTypes from 'prop-types'
-import { MenuList, SwipeableDrawer, withStyles } from '@material-ui/core'
+import { withStyles } from '@material-ui/core'
 import Grid from '@material-ui/core/Grid/Grid'
-import MenuItem from '@material-ui/core/MenuItem'
 import cn from 'classnames'
-import Typography from '@material-ui/core/Typography'
-import { NavLink } from 'react-router-dom'
 import IconButton from '@material-ui/core/IconButton'
 import MenuIcn from '@material-ui/icons/Menu'
+import CloseIcn from '@material-ui/icons/Close'
 
 const propTypes = {
   /** Which side menu should be draggable from */
@@ -23,10 +21,11 @@ const propTypes = {
   ),
   /** @ignore */
   classes: PropTypes.shape().isRequired,
+  /** @ignore */
+  children: PropTypes.node.isRequired,
 }
 
 const defaultProps = {
-  isOpen: false,
   side: 'right',
   links: [],
 }
@@ -36,7 +35,6 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    width: 300,
     '@media(max-width: 768px)': {
       width: '70vw',
     },
@@ -61,58 +59,50 @@ const styles = {
   },
   burgerWrapper: {
     position: 'fixed',
-    top: 8,
-    right: 22,
+    top: 11,
+    left: 235,
+  },
+  burgerWrapperClosed: {
+    left: 18,
+  },
+
+  navigationContainer: {
+    width: '20%',
+    minWidth: 300,
+  },
+
+  closedMenu: {
+    minWidth: 0,
+    width: 0,
   },
 }
 
 /**
  * Side menu component with navigation in it
  */
-function SideMenu({ classes, side, links }) {
-  const [isOpen, setIsOpen] = useState(false)
+function SideMenu({ classes, children }) {
+  const [isOpen, setIsOpen] = useState(true)
 
   const onMenuToggle = () => {
     setIsOpen(!isOpen)
   }
+
+  const contentMenuClass = cn(classes.navigationContainer, {
+    [classes.closedMenu]: !isOpen,
+  })
+
+  const iconClass = cn(classes.burgerWrapper, {
+    [classes.burgerWrapperClosed]: !isOpen,
+  })
   return (
-    <Grid container>
-      <Grid item className={classes.burgerWrapper} onClick={onMenuToggle}>
-        <IconButton>
-          <MenuIcn style={{ color: 'white' }} />
+    <Fragment>
+      <Grid item className={iconClass} onClick={onMenuToggle}>
+        <IconButton style={{ color: 'white' }}>
+          {isOpen ? <CloseIcn /> : <MenuIcn />}
         </IconButton>
       </Grid>
-      <SwipeableDrawer
-        onClose={onMenuToggle}
-        onOpen={onMenuToggle}
-        open={isOpen}
-        anchor={side}
-      >
-        <MenuList className={classes.menu}>
-          <MenuItem className={classes.itemIntro}>
-            <NavLink to="/" className={classes.navLink}>
-              <Typography
-                variant="display1"
-                className={classes.intro}
-                onClick={onMenuToggle}
-              >
-                React Guide
-              </Typography>
-            </NavLink>
-          </MenuItem>
-          {links.map(link => (
-            <NavLink
-              className={cn(classes.navLink, classes.item)}
-              to={link.to}
-              onClick={onMenuToggle}
-              key={link.to}
-            >
-              <MenuItem className={classes.item}>{link.text}</MenuItem>
-            </NavLink>
-          ))}
-        </MenuList>
-      </SwipeableDrawer>
-    </Grid>
+      <div className={contentMenuClass}>{children}</div>
+    </Fragment>
   )
 }
 

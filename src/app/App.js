@@ -19,7 +19,6 @@ class App extends Component {
       <MuiThemeProvider theme={theme}>
         <HashRouter>
           <Fragment>
-            <SideMenu side="right" links={this.links} />
             <Switch>
               <Route path="/lessons/:id" component={Lessons} />
               <Route path="/lessons" component={Lessons} />

@@ -10,6 +10,7 @@ import cn from 'classnames'
 
 import { lessonPropType } from '../../PropTypes/PropTypes'
 import ParsedLesson from '../Lesson/ParsedLesson'
+import SideMenu from '../SideMenu'
 
 const propTypes = {
   /** Title of a section */
@@ -47,8 +48,7 @@ const styles = {
   },
 
   lessonsDescription: {
-    width: '20%',
-    minWidth: 300,
+    width: '100%',
     height: '100%',
     borderRight: '1px solid #424242',
     background: '#262b33',
@@ -86,19 +86,25 @@ const styles = {
   },
 
   lessonBody: {
-    width: '80%',
+    width: '100%',
     background: '#dfdfdf',
   },
 
   lessonViewContainer: {
-    paddingTop: 48,
-    paddingLeft: 48,
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: '36px 48px 0',
     height: '100%',
     width: '100%',
     overflowY: 'scroll',
+    '@media (max-width: 560px)': {
+      padding: '24px 8px 0',
+    },
   },
   lessonView: {
-    maxWidth: 1200,
+    maxWidth: 1050,
+    width: '100%',
     height: '100%',
   },
 }
@@ -111,51 +117,59 @@ export function LessonsSection({ classes, title, lessons, match }) {
   const currentLesson = lessons.filter(({ id }) => id === currentLessonId)
   return (
     <Grid container className={classes.root}>
-      <Grid item className={classes.lessonsDescription}>
-        <Grid container direction="column">
-          <Grid item className={classes.fullW}>
-            <Typography gutterBottom variant="title" className={classes.title}>
-              {`${title}:`}
-            </Typography>
-          </Grid>
-          <Grid item className={classes.fullW}>
-            <Grid container direction="column">
-              {lessons.map(({ title: lessonTitle, id }) => {
-                const isCurrent = currentLessonId === id
-                const lessonClassName = cn(classes.lessonName, {
-                  [classes.currentLesson]: isCurrent,
-                })
-                return (
-                  <Grid item className={classes.lessonItemNav} key={id}>
-                    <Tooltip
-                      title={lessonTitle}
-                      placement="top-start"
-                      enterDelay={350}
-                      classes={{
-                        tooltip: classes.bootstrapTooltip,
-                      }}
-                    >
-                      <Link to={`/lessons/${id}`} className={classes.fullW}>
-                        <Typography
-                          variant="body1"
-                          noWrap
-                          className={lessonClassName}
-                        >
-                          {lessonTitle}
-                        </Typography>
-                      </Link>
-                    </Tooltip>
-                  </Grid>
-                )
-              })}
+      <SideMenu>
+        <Grid item className={classes.lessonsDescription}>
+          <Grid container direction="column">
+            <Grid item className={classes.fullW}>
+              <Typography
+                gutterBottom
+                variant="title"
+                className={classes.title}
+              >
+                {`${title}:`}
+              </Typography>
+            </Grid>
+            <Grid item className={classes.fullW}>
+              <Grid container direction="column">
+                {lessons.map(({ title: lessonTitle, id }) => {
+                  const isCurrent = currentLessonId === id
+                  const lessonClassName = cn(classes.lessonName, {
+                    [classes.currentLesson]: isCurrent,
+                  })
+                  return (
+                    <Grid item className={classes.lessonItemNav} key={id}>
+                      <Tooltip
+                        title={lessonTitle}
+                        placement="top-start"
+                        enterDelay={350}
+                        classes={{
+                          tooltip: classes.bootstrapTooltip,
+                        }}
+                      >
+                        <Link to={`/lessons/${id}`} className={classes.fullW}>
+                          <Typography
+                            variant="body1"
+                            noWrap
+                            className={lessonClassName}
+                          >
+                            {lessonTitle}
+                          </Typography>
+                        </Link>
+                      </Tooltip>
+                    </Grid>
+                  )
+                })}
+              </Grid>
             </Grid>
           </Grid>
         </Grid>
-      </Grid>
+      </SideMenu>
       <Grid item className={classes.lessonBody}>
         <Grid container className={classes.lessonViewContainer}>
           <Grid item className={classes.lessonView}>
-            <ParsedLesson lesson={currentLesson[0]} />
+            {currentLesson.length > 0 && (
+              <ParsedLesson lesson={currentLesson[0]} />
+            )}
           </Grid>
         </Grid>
       </Grid>
