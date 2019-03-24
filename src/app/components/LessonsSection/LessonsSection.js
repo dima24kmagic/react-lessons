@@ -146,7 +146,7 @@ export function LessonsSection({ classes, title, lessons, match }) {
                           tooltip: classes.bootstrapTooltip,
                         }}
                       >
-                        <Link to={`/lessons/${id}`} className={classes.fullW}>
+                        <Link to={`/${id}`} className={classes.fullW}>
                           <Typography
                             variant="body1"
                             noWrap
