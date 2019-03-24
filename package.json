@@ -1,5 +1,5 @@
 {
-  "name": "react-lessons",
+  "name": "reactlessons",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -32,7 +32,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "doc": "npx styleguidist server",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -49,6 +51,7 @@
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-jsx-a11y": "^6.2.0",
     "eslint-plugin-prettier": "^3.0.1",
+    "gh-pages": "^2.0.1",
     "library-utils": "^2.2.0",
     "prettier": "^1.16.1",
     "react-docgen": "^3.0.0"
