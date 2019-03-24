@@ -87,7 +87,7 @@ const styles = {
 
   lessonBody: {
     width: '100%',
-    background: '#dfdfdf',
+    background: '#fbfbfb',
   },
 
   lessonViewContainer: {

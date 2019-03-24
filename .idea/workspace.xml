@@ -25,9 +25,7 @@
       <change afterPath="$PROJECT_DIR$/../labs/l27/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../labs/16/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../labs/16/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/LessonsSection/LessonsSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/LessonsSection/LessonsSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/SideMenu/SideMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/SideMenu/SideMenu.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -138,8 +136,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/components/LessonsSection/LessonsSection.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="95" column="29" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
+            <state relative-caret-position="447">
+              <caret line="88" column="18" lean-forward="true" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
                 <element signature="e#456#643#0" expanded="true" />
@@ -154,7 +152,7 @@
                 <element signature="e#1516#1718#0" expanded="true" />
                 <element signature="e#1702#1769#0" expanded="true" />
                 <element signature="e#1952#1979#0" expanded="true" />
-                <element signature="e#1904#1955#0" expanded="true" />
+                <element signature="e#1981#2219#0" expanded="true" />
                 <element signature="e#2178#2214#0" expanded="true" />
                 <element signature="e#2235#2299#0" expanded="true" />
                 <element signature="e#2434#4451#0" expanded="true" />
@@ -395,7 +393,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553435990497" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553436365643" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.13.0" />
@@ -464,12 +462,12 @@
       <workItem from="1553268709397" duration="318000" />
       <workItem from="1553330888478" duration="2755000" />
       <workItem from="1553334410606" duration="8492000" />
-      <workItem from="1553415737300" duration="19005000" />
+      <workItem from="1553415737300" duration="19379000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66675000" />
+    <option name="totallyTimeSpent" value="67049000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
@@ -495,7 +493,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="RNConsole" order="10" weight="0.32914045" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.35455543" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.35455543" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="14" />
       <window_info anchor="right" id="Merger" order="0" />
@@ -972,8 +970,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/components/LessonsSection/LessonsSection.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="95" column="29" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
+        <state relative-caret-position="447">
+          <caret line="88" column="18" lean-forward="true" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
             <element signature="e#456#643#0" expanded="true" />
@@ -988,7 +986,7 @@
             <element signature="e#1516#1718#0" expanded="true" />
             <element signature="e#1702#1769#0" expanded="true" />
             <element signature="e#1952#1979#0" expanded="true" />
-            <element signature="e#1904#1955#0" expanded="true" />
+            <element signature="e#1981#2219#0" expanded="true" />
             <element signature="e#2178#2214#0" expanded="true" />
             <element signature="e#2235#2299#0" expanded="true" />
             <element signature="e#2434#4451#0" expanded="true" />
