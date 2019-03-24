@@ -64,6 +64,11 @@ const styles = {
   },
   burgerWrapperClosed: {
     left: 18,
+    '@media (max-width: 560px)': {
+      width: 52,
+      right: 18,
+      left: 'auto',
+    },
   },
 
   navigationContainer: {
