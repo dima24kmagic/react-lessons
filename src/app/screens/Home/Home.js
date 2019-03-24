@@ -7,14 +7,16 @@ import { Link } from 'react-router-dom'
 
 const styles = theme => ({
   root: {
-    height: '80vh',
+    height: '60vh',
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'space-around',
   },
   title: {
+    marginTop: 48,
     fontWeight: 800,
+    fontSize: 42,
     color: '#121212',
   },
   startLink: {

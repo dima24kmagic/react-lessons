@@ -64,3 +64,5 @@ f
 6src/app/components/Lesson/LessonHeader/LessonHeader.js,1/f/1fd9ad642ef490888c7009727dd4e153d09352ff
 ^
 .src/app/components/LessonsSection/constants.js,7/0/70e4761d99ef0a22a64bacdd4729b7364d0ea545
+[
++src/app/components/HtmlParser/HtmlParser.js,6/0/60fa4b1f4906ece606c8e6ba6bdb8d69b02915cc

@@ -4,11 +4,10 @@ import { withStyles } from '@material-ui/core'
 import Grid from '@material-ui/core/Grid/Grid'
 import ReactMarkdown from 'react-markdown'
 import Collapse from '@material-ui/core/Collapse'
-import Typography from '@material-ui/core/es/Typography/Typography'
-
 import { lessonPropType } from '../../PropTypes/PropTypes'
 import LessonHeader from './LessonHeader/LessonHeader'
 import CodeBlock from '../CodeBlock'
+import HtmlParser from '../HtmlParser/HtmlParser'
 
 const propTypes = {
   /** Lesson proptype */
@@ -26,6 +25,7 @@ const styles = theme => ({
     fontFamily: theme.fontFamily,
     alignItems: 'center',
     padding: '16px 0px',
+    paddingTop: 28,
   },
   root: {
     width: '100%',
@@ -34,6 +34,7 @@ const styles = theme => ({
     width: 800,
   },
 })
+
 /**
  * Lesson component
  */
@@ -57,7 +58,7 @@ function Lesson({ classes, lesson }) {
             <div className={classes.lesson}>
               <ReactMarkdown
                 source={lesson.body}
-                renderers={{ code: CodeBlock }}
+                renderers={{ code: CodeBlock, html: HtmlParser }}
               />
             </div>
           </div>

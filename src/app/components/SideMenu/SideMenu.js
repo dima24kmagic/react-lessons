@@ -91,7 +91,11 @@ function SideMenu({ classes, side, links }) {
         <MenuList className={classes.menu}>
           <MenuItem className={classes.itemIntro}>
             <NavLink to="/" className={classes.navLink}>
-              <Typography variant="display1" className={classes.intro}>
+              <Typography
+                variant="display1"
+                className={classes.intro}
+                onClick={onMenuToggle}
+              >
                 React Guide
               </Typography>
             </NavLink>

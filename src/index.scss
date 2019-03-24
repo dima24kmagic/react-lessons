@@ -7,7 +7,7 @@
 html {
   width: 100%;
   overflow-x: hidden;
-  color: #424242;
+  color: #373d49;
 }
 
 body {
@@ -15,15 +15,82 @@ body {
   overflow-x: hidden;
 }
 
-h2 {
-  margin-bottom: 1rem;
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 2rem;
+  color: #373d49;
 }
 
 p {
   line-height: 1.4rem;
+  margin-bottom: 2rem;
 }
 
 pre {
-  margin-top: 1rem;
+  border: 1px solid #ccc;
+  margin-bottom: 2rem;
+}
+
+blockquote {
+  display: flex;
+  align-items: center;
+  color: #666;
+  padding: 1.4rem 0 1.4rem 2em;
+  border-left: 0.5em #eee solid;
+  margin-bottom: 1.5rem;
+  p {
+    margin-bottom: 0;
+  }
+}
+
+tr {
+  border-top: 1px solid #c6cbd1;
+  background: #fff;
+}
+
+th,
+td {
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+table tr:nth-child(2n) {
+  background: #f6f8fa;
+}
+
+hr {
   margin-bottom: 1rem;
+}
+
+a {
+  color: #a0aabf;
+}
+
+ul,
+ol {
+  margin-left: 3.2rem;
+  margin-bottom: 2rem;
+
+  li {
+    margin-bottom: 1.5rem;
+    & > code {
+      color: #c7254e;
+      background-color: #f9f2f4;
+      border-radius: 4px;
+      padding: 2px 6px;
+    }
+  }
+}
+
+.code-block {
+  margin-bottom: 2rem;
+}
+
+p > code {
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+  padding: 2px 6px;
 }

@@ -11,10 +11,7 @@ import theme from './theme'
 class App extends Component {
   constructor(props) {
     super(props)
-    this.links = [
-      { to: '/lessons', text: 'Уроки' },
-      { to: '/about', text: 'Обо мне' },
-    ]
+    this.links = [{ to: '/lessons', text: 'Уроки' }]
   }
 
   render() {
