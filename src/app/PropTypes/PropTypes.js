@@ -9,4 +9,4 @@ export const lessonPropType = PropTypes.shape({
   body: PropTypes.string.isRequired,
 })
 
-export const arrayOfLessons = PropTypes.arrayOf(lessonPropType)
+export const childrenPropType = PropTypes.node

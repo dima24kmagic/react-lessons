@@ -1,29 +1,22 @@
-import React, { Component, Fragment } from 'react'
+import React, { Fragment } from 'react'
 import { HashRouter, Route, Switch } from 'react-router-dom'
 import { MuiThemeProvider } from '@material-ui/core'
-import Lessons from './screens/Lessons/Lessons'
 import theme from './theme'
+import Home from './screens/Home/Home'
 
-class App extends Component {
-  constructor(props) {
-    super(props)
-    this.links = [{ to: '/lessons', text: 'Уроки' }]
-  }
-
-  render() {
-    return (
-      <MuiThemeProvider theme={theme}>
-        <HashRouter>
-          <Fragment>
-            <Switch>
-              <Route path="/:id" component={Lessons} />
-              <Route path="/" component={Lessons} />
-            </Switch>
-          </Fragment>
-        </HashRouter>
-      </MuiThemeProvider>
-    )
-  }
+function App() {
+  return (
+    <MuiThemeProvider theme={theme}>
+      <HashRouter>
+        <Fragment>
+          <Switch>
+            <Route path="/:id" component={Home} />
+            <Route path="/" component={Home} />
+          </Switch>
+        </Fragment>
+      </HashRouter>
+    </MuiThemeProvider>
+  )
 }
 
 export default App

@@ -1,5 +1,5 @@
-export const lessons = [
-  {
+export const lessons = {
+  intro: {
     id: 'intro',
     title: 'NodeJS и NPM',
     body: `
@@ -18,7 +18,8 @@ $ npm -v
 Эти две комманды должны вывести версию установленных пакетов.  
     `,
   },
-  {
+
+  'create-react-app': {
     id: 'create-react-app',
     title: 'create-react-app',
     body: `
@@ -33,7 +34,7 @@ $ create-react-app -v                     (Проверка что пакет у
 \`\`\`
     `,
   },
-  {
+  'react-setup': {
     /** Lesson id */
     id: 'react-setup',
     /** Lesson title */
@@ -65,7 +66,7 @@ $ npm start
 После всех действий у вас должно быть стартовое окно с сообщением от React-разработчиков, поздравляю, вы только что создали своё первое React-приложение:)
 `,
   },
-  {
+  'first-react-change': {
     /** Lesson id */
     id: 'first-react-change',
     /** Lesson title */
@@ -95,7 +96,7 @@ export default App
  то уже заметили, как выглядит структура простейшего реакт компонента;)
   `,
   },
-  {
+  'component-structure': {
     /** Lesson id */
     id: 'component-structure',
     /** Lesson title */
@@ -127,7 +128,7 @@ class App extends React.Component {
 наследовать его от класса Component и перезаписать метод render()
 `,
   },
-  {
+  'component-state': {
     /** Lesson id */
     id: 'component-state',
     /** Lesson title */
@@ -270,7 +271,7 @@ export default UserAge
 #### **Теперь вы можете использовать State внутри компонентов, круто! Но нам как-то нужно изменить наш возраст**
   `,
   },
-  {
+  'set-state': {
     id: 'set-state',
     title: 'Давайте изменим State',
     body: `
@@ -393,7 +394,7 @@ onAddUserAge = (e) => {
 #### Отлично, мы разобрались, как изменить state класса:)
     `,
   },
-  {
+  'component-props': {
     /** Lesson id */
     id: 'component-props',
     /** Lesson title */
@@ -466,7 +467,7 @@ export default UserAge
 
 `,
   },
-  {
+  'end-words': {
     id: 'end-words',
     title: 'На будущее',
     body: `
@@ -483,4 +484,4 @@ export default UserAge
 # Cпасибо, что учили эти уроки, если у вас есть, что дополнить - кидайте ваши pull реквесты [в этот репозиторий](https://github.com/dima24kmagic/react-lessons)
     `,
   },
-]
+}
