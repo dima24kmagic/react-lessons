@@ -43,7 +43,7 @@ const styles = {
   },
 
   lessonsDescription: {
-    width: 400,
+    width: 380,
     maxWidth: '80vw',
     height: '100%',
     borderRight: '1px solid #424242',
