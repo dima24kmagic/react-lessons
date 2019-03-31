@@ -48,7 +48,7 @@ const styles = {
 /**
  * Lessons grouped in section
  */
-export function LessonsSection({ classes, currentLesson }) {
+export function LessonView({ classes, currentLesson }) {
   return (
     <Grid container className={classes.root}>
       <Grid item className={classes.lessonBody}>
@@ -62,9 +62,9 @@ export function LessonsSection({ classes, currentLesson }) {
   )
 }
 
-LessonsSection.propTypes = propTypes
-LessonsSection.defaultProps = defaultProps
+LessonView.propTypes = propTypes
+LessonView.defaultProps = defaultProps
 
 const enhance = withStyles(styles)
 
-export default enhance(LessonsSection)
+export default enhance(LessonView)

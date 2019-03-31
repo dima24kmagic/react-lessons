@@ -40,28 +40,18 @@ const styles = theme => ({
  * Lesson component
  */
 function Lesson({ classes, lesson }) {
-  const [expanded, setExpanded] = useState(false)
-  function onExpand() {
-    setExpanded(!expanded)
-  }
   return (
     <Grid container direction="column" className={classes.root}>
       <Grid item>
-        <LessonHeader
-          onExpand={onExpand}
-          title={lesson.title}
-          expanded={expanded}
-        />
+        <LessonHeader title={lesson.title} />
       </Grid>
-      <Collapse in={expanded}>
-        <Grid item>
-          <div className={classes.infoContainer}>
-            <div className={classes.lesson}>
-              <ParsedLesson lesson={lesson} />
-            </div>
+      <Grid item>
+        <div className={classes.infoContainer}>
+          <div className={classes.lesson}>
+            <ParsedLesson lesson={lesson} />
           </div>
-        </Grid>
-      </Collapse>
+        </div>
+      </Grid>
     </Grid>
   )
 }

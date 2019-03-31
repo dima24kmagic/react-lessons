@@ -1,7 +1,7 @@
 import React from 'react'
 import { arrayOf } from 'prop-types'
 
-import LessonsSection from '../../components/LessonsSection'
+import LessonsSection from '../../components/LessonView'
 import { lessonPropType } from '../../PropTypes/PropTypes'
 
 const propTypes = {
