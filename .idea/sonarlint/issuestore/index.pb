@@ -66,3 +66,11 @@ f
 .src/app/components/LessonsSection/constants.js,7/0/70e4761d99ef0a22a64bacdd4729b7364d0ea545
 [
 +src/app/components/HtmlParser/HtmlParser.js,6/0/60fa4b1f4906ece606c8e6ba6bdb8d69b02915cc
+[
++src/app/components/LessonView/LessonView.md,b/e/bebe3968a550b402380a7351c9e63ed1cd09ee47
+Z
+*src/app/screens/LessonsPage/LessonsPage.js,7/5/75987ce01b6d2c30f6798044dc0cb475d7e3cddd
+Q
+!src/app/lessonsData/allLessons.js,a/b/abcb9cf91a0429a529ecb80fa40884f27f491e3c
+[
++src/app/components/LessonView/LessonView.js,e/3/e323904ad20f1e5d16f36eb5b9940809b80105a1
