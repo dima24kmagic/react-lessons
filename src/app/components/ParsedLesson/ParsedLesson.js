@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
 
-import CodeBlock from '../../CodeBlock'
-import HtmlParser from '../../HtmlParser/HtmlParser'
-import { lessonPropType } from '../../../PropTypes/PropTypes'
+import CodeBlock from '../CodeBlock'
+import HtmlParser from '../HtmlParser/HtmlParser'
+import { lessonPropType } from '../../PropTypes/PropTypes'
 
 const propTypes = {
   lesson: lessonPropType.isRequired,

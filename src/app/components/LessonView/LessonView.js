@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { withStyles } from '@material-ui/core/styles'
 import Grid from '@material-ui/core/Grid/Grid'
-import ParsedLesson from '../Lesson/ParsedLesson'
+import ParsedLesson from '../ParsedLesson'
 import { lessonPropType } from '../../PropTypes/PropTypes'
 
 const propTypes = {

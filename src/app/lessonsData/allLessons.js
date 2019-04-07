@@ -485,3 +485,7 @@ export default UserAge
     `,
   },
 }
+
+export const lessonsInArray = Object.keys(lessons).map(
+  lessonId => lessons[lessonId],
+)

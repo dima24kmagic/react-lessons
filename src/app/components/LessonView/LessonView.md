@@ -1,6 +1,6 @@
 Example:
 
 ```js
-import { lessons } from '../../lessonsData/allLessons'
-;<LessonsSection lessons={lessons} title="Basic React" />
+import { lessonsInArray } from '../../lessonsData/allLessons'
+;<LessonView currentLesson={lessonsInArray[5]} />
 ```

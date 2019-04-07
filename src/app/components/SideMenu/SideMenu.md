@@ -1,26 +1,13 @@
 Example:
 
 ```js
+const { lessonsInArray } = require('../../lessonsData/allLessons')
 const { BrowserRouter } = require('react-router-dom')
-const { Button } = require('@material-ui/core')
 
-initialState = {
-  isOpen: false,
-}
-
-const toggleMenu = () => {
-  setState({
-    isOpen: !state.isOpen,
-  })
-}
 ;<BrowserRouter>
   <div>
-    <Button onClick={toggleMenu}>Open Side Nav</Button>
-    <SideMenu
-      toggleMenu={toggleMenu}
-      isOpen={state.isOpen}
-      links={[{ to: 'TEST', text: 'TEST' }]}
-    />
+    This side menu opens from start
+    <SideMenu lessons={lessonsInArray} currentLessonId={null} />
   </div>
 </BrowserRouter>
 ```
